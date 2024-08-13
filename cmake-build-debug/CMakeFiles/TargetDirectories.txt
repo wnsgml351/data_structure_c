@@ -1,0 +1,3 @@
+/Users/junhee/Desktop/data c/cmake-build-debug/CMakeFiles/data_c.dir
+/Users/junhee/Desktop/data c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/junhee/Desktop/data c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

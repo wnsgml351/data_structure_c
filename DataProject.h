@@ -1,0 +1,20 @@
+#ifndef DATAPROJECT_H
+#define DATAPROJECT_H
+
+void sosu_main();
+void recursive_main();
+void linkedList_main();
+void stackMain();
+void queueMain();
+void PostFixMain();
+void CircleQueueMain();
+void BinaryTreeMain();
+void HeapMain();
+void BFS();
+void DFS();
+void GraphMain();
+void ChainHashMain();
+void OpenAddressHashMain();
+void BubbleSortMain();
+void SelectionSort();
+#endif //DATAPROJECT_H

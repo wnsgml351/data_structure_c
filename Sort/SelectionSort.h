@@ -1,0 +1,4 @@
+#ifndef SELECTIONSORT_H
+#define SELECTIONSORT_H
+
+#endif //SELECTIONSORT_H

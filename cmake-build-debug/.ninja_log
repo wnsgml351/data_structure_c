@@ -1,0 +1,26 @@
+# ninja log v6
+1	32	1723527486676640160	CMakeFiles/data_c.dir/Sort/BubbleSort.c.o	59881f3254e728a6
+1	35	1723436481728800171	CMakeFiles/data_c.dir/Graph/Graph.c.o	e63f2299ebb0d3ae
+1	32	1723093597086071506	CMakeFiles/data_c.dir/Calculator/Calculator.c.o	bbc1854ddc36b5bf
+0	29	1723185559012575073	CMakeFiles/data_c.dir/Queue/Queue.c.o	10fbfb8735af26ee
+2	38	1723185541796318384	CMakeFiles/data_c.dir/Heap/Heap.c.o	efea0ba9739f8d62
+2	40	1723526599960551890	CMakeFiles/data_c.dir/Hash/OpenAddress.c.o	c33c308152de6790
+1	33	1723526599960295190	CMakeFiles/data_c.dir/main.c.o	95e551944090ef6c
+1	29	1723093071159911883	CMakeFiles/data_c.dir/Stack/DoubleStack.c.o	17fa6b776dece867
+2	36	1723523532045854118	CMakeFiles/data_c.dir/Hash/ChainHash.c.o	e397adff3e18929d
+1	29	1722838262923498265	CMakeFiles/data_c.dir/Sosu/sosu.c.o	608aeec4f0b44b09
+32	67	1723527486707310225	data_c	6403b019637da756
+2	42	1723185541796203887	CMakeFiles/data_c.dir/Postfix/Postfix.c.o	93e105f4059d35df
+0	37	1723527660922634202	build.ninja	b337ee404d9d4171
+2	43	1723095432928683712	CMakeFiles/data_c.dir/List/LinkedList.c.o	d4ab812d26ac6d1c
+0	29	1722919335904205942	CMakeFiles/data_c.dir/Recursive/recursive.c.o	8818ff7ded751b53
+1	30	1723176855860649292	CMakeFiles/data_c.dir/BinaryTree/BinaryTree.c.o	c174437349d5aa4f
+2	31	1723526967989745638	CMakeFiles/data_c.dir/Sort/Sort.c.o	a7f01541d6708f50
+3	35	1723095432929158784	CMakeFiles/data_c.dir/CircleQueue/CircleQueue.c.o	936cce07d5d0694e
+1	27	1723009953105122605	CMakeFiles/data_c.dir/Stack/stack.c.o	c3a856998b0ec904
+1	26	1722924518113694216	CMakeFiles/data_c.dir/List/Member.c.o	dc66748576d600e
+1	31	1723527926387133287	CMakeFiles/data_c.dir/Sort/SelectionSort.c.o	d87ca328dc9f9a48
+0	32	1723527926386869747	CMakeFiles/data_c.dir/main.c.o	95e551944090ef6c
+32	67	1723527926417960560	data_c	4dac0bb8c6405c7a
+1	33	1723528085237756544	CMakeFiles/data_c.dir/Sort/SelectionSort.c.o	d87ca328dc9f9a48
+33	71	1723528085269807270	data_c	4dac0bb8c6405c7a
