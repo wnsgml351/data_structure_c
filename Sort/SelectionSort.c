@@ -1,13 +1,12 @@
 #include "SelectionSort.h"
 #include <stdio.h>
+#include "Sort.h"
 
 // 배열에서 최솟값의 인덱스를 찾기
-int FindMinValueIndex() {
-    int arr[] = {5,9,3,1,2,8,4,7,6};
-
-    int min = arr[0]; // 일단은 '제일 앞 수가 제일 작다!' 라고 판단
-    int minIndex = 0; // 최솟값이 있는 위치
-    for (int i = 1; i < 9; ++i) {
+int FindMinValueIndex(int arr[], int startIndex) {
+    int min = arr[startIndex]; // 일단은 '제일 앞 수가 제일 작다!' 라고 판단
+    int minIndex = startIndex; // 최솟값이 있는 위치
+    for (int i = startIndex + 1; i < 9; ++i) {
         // 만약 현재 숫자가 내가 알고 있던 최솟값보다 작다면
         if(arr[i] < min) {
             // 내가 알고 있는 최솟값을 현재 숫자로 변경한다
@@ -19,12 +18,16 @@ int FindMinValueIndex() {
     return minIndex;
 }
 
-void SelectionSort() {
+void SelectionSort(int arr[]) {
+    puts("===== SELECTION SORT =====");
+    PrintArr(arr);
     for (int i = 0; i < 8; ++i) {
-        int minIndex = FindMinValueIndex();
+        printf("round [%d] end \n", i+1);
+        int minIndex = FindMinValueIndex(arr, i);
         int temp = arr[i];
         arr[i] = arr[minIndex];
         arr[minIndex] = temp;
+        PrintArr(arr);
     }
 
 }

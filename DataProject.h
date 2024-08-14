@@ -17,4 +17,5 @@ void ChainHashMain();
 void OpenAddressHashMain();
 void BubbleSortMain();
 void SelectionSort();
+void SortMain();
 #endif //DATAPROJECT_H

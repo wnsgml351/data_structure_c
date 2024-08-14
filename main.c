@@ -17,6 +17,7 @@ int main(void) {
     // ChainHashMain();
     // OpenAddressHashMain();
     // BubbleSortMain();
-    SelectionSort();
+    // SelectionSort();
+    SortMain();
     return 0;
 }

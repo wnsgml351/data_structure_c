@@ -39,4 +39,9 @@ add_executable(data_c main.c
         Sort/Sort.h
         Sort/SelectionSort.c
         Sort/SelectionSort.h
+        Sort/Sort.c
+        Sort/InsertionSort.c
+        Sort/InsertionSort.h
+        Sort/MergeSort.c
+        Sort/MergeSort.h
 )

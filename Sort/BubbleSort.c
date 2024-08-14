@@ -1,18 +1,8 @@
 #include "BubbleSort.h"
 #include "Sort.h"
-#include <stdio.h>
 #include <stdbool.h>
 
-void PrintArr() {
-    for (int i = 0; i < 9; ++i) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-}
-
-
-void BubbleSort() {
-
+void BubbleSort(int arr[]) {
 
     // arr의 개수 -1 만큼 round를 진행
     for (int i = 0; i < 8; ++i) {
@@ -29,7 +19,7 @@ void BubbleSort() {
                 num1 = num2;
                 num2 = temp;
                 endCheck = false;
-                PrintArr();
+                PrintArr(arr);
             }
             arr[i] = num1;
             arr[i+1] = num2;
@@ -40,9 +30,4 @@ void BubbleSort() {
         }
     }
 
-}
-
-void BubbleSortMain() {
-    BubbleSort();
-    PrintArr();
 }
